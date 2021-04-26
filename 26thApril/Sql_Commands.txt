@@ -1,0 +1,31 @@
+-- Create database
+--DDL
+create database NewDb
+
+-- Remove Database
+--DDL
+drop database NewDb
+
+-- Switch to a particular database
+use NewDb
+
+-- Create table
+--DDL
+create table employee
+( 
+id int,
+name char(20),
+dept char(20),
+salary int
+)
+-- To see all records
+-- DML / DQL
+select * from employee 
+
+insert into employee values(1, 'Ajay','HR',9000)
+insert into employee values(2, 'Vijay','Accounts',23000)
+
+
+
+
+
