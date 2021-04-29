@@ -1,0 +1,73 @@
+create table sales(salesmanname varchar(20),
+region varchar(20) , sales int)
+
+
+insert into sales values('Deepak','South', 9000),
+('Sagar','South', 1200),
+('Vijay','North', 8900),
+('Deepak','North', 12000),
+('Manoj','East', 96000),
+('Manoj','South', 9000),
+('Preeti','South', 9000),
+('Preeti','East', 9000)
+
+select * from sales
+
+select max(sales) from sales
+-- Give max sales done in every region
+-- Group By
+
+--Select [coulmname] , aggregatefunction
+--group by [coulmname]
+
+
+select max(sales)
+from sales
+group by region
+
+
+select region , max(sales)
+from sales
+group by region
+
+
+select region , sum(sales)
+from sales
+group by region
+
+select region ,salesmanname,  sum(sales)
+from sales 
+group by region , salesmanname
+
+
+--n where cluase with group
+
+select * from sales
+
+-- total sales done by every salesman
+-- but sales shoul dbe more than 12000
+
+
+select salesmanname,  sum(sales)
+from sales 
+where sales >= 9000
+group by salesmanname
+
+
+--n having cluase with group
+-- it is also for condition
+-- where clause filters records before making group
+-- having clause filters records after making group
+
+
+select salesmanname,  sum(sales)
+from sales 
+--where sales >= 9000
+group by salesmanname
+having sum(sales)> 100000
+
+select salesmanname,  sum(sales)
+from sales 
+where sales >= 9000
+group by salesmanname
+having sum(sales)> 100000
