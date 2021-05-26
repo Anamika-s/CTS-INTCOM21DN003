@@ -1,0 +1,28 @@
+Create table Student 
+rollno int 
+name 
+address
+hindimarks
+engmarks
+mathsmarks
+
+
+insert some records
+update records where hindimarks are less than 10 to 90
+
+Do you see some problems in this table? How can we resolve it?
+
+Yes , use contstraints. We cannnot allow any value to be entered in the columns
+So , add constraints
+
+Rollno should be primary key, and there coulb be only 20 students
+
+name, address , all marks columns should not allow nulls
+
+marks columns should have values from 0 to 100
+
+insert some records 
+
+Add one more column Stream (IT, ECE , CSE)
+
+What values do you get in previous records

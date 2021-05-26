@@ -1,0 +1,15 @@
+26th Sql Server Table Creation, CRUD Operations with Data Integrity, Constraints
+
+ADO.Net : , ADO.Net, Attempt ur ICT Question
+Movie & Pharma 
+
+Thurs :Sql Server , Revise HTML ,CSS 
+
+Fri : Javascript
+
+Satur C# 
+
+Sunday C#
+
+Monday : Revise & Doubts of C#
+
