@@ -25,4 +25,4 @@ insert some records
 
 Add one more column Stream (IT, ECE , CSE)
 
-What values do you get in previous records
+4What values do you get in previous records
