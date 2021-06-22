@@ -1,0 +1,16 @@
+Migration : Used in Code First Approach
+
+Why? Whenever we change somethng in class (model)
+
+Steps :
+
+Step 1: Enable Migration(once)
+
+Enable-migrations -contextTypeName Movie3DbContext
+
+AFter that , whenever you change something in the doamin class
+
+Add-Migration AddedTicket
+
+Step 3:  Update-database
+
